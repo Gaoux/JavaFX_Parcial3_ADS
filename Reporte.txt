@@ -1,0 +1,6 @@
+Juan Camilo , 123 , \$ 5104000.0
+Berenice Suarez , 456 , \$ 5104000.0
+Estefania Bermudez , 567 , \$ 60.0
+Alejandro Sierra , 222 , \$ 3062400.0
+Diana Bustamante , 333 , \$ 2041600.0
+Juan Garcés , 444 , \$ 15.0

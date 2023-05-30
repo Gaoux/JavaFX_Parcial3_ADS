@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.parcialahora.ControllerOpcion5">
+   <children>
+      <ImageView fitHeight="485.0" fitWidth="785.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Opcion%205.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nombreProfesor" layoutX="439.0" layoutY="220.0" prefHeight="25.0" prefWidth="253.0" />
+      <Label fx:id="cantidad" layoutX="552.0" layoutY="266.0"/>
+      <Label fx:id="salario" layoutX="552.0" layoutY="313.0"/>
+      <Button fx:id="comprobar" layoutX="442.0" layoutY="383.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="253.0" onAction="#profesores" text="Comprobar" />
+      <Button fx:id="salir" layoutX="38.0" layoutY="425.0" mnemonicParsing="false" onAction="#llamarMenu" prefHeight="25.0" prefWidth="253.0" text="Salir" />
+   </children>
+</AnchorPane>
