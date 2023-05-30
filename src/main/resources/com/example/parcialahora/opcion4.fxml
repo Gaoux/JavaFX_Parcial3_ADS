@@ -13,7 +13,7 @@
          <Image url="@Opcion%204%20(2).jpg" />
       </image></ImageView>
    <TextField fx:id="nombreEmpleado" layoutX="439.0" layoutY="220.0" prefHeight="25.0" prefWidth="253.0" />
-   <Label fx:id="cantidad" layoutX="552.0" layoutY="266.0"/>
+   <Label fx:id="cantidad" layoutX="552.0" layoutY="266.0" />
    <Label fx:id="salario" layoutX="552.0" layoutY="313.0"/>
    <Button fx:id="comprobar" layoutX="442.0" layoutY="383.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="253.0" onAction="#empleaditos" text="Comprobar" />
    <Button fx:id="salir" layoutX="38.0" layoutY="425.0" mnemonicParsing="false" onAction="#llamarMenu" prefHeight="25.0" prefWidth="253.0" text="Salir" />

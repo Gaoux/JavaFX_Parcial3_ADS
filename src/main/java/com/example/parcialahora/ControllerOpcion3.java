@@ -27,7 +27,7 @@ public class ControllerOpcion3 {
         nomina = ControllerMenu.nomina;
     }
     @FXML
-    public void añadiraMonitores(){
+    public void agregarAMonitores(){
         boolean existe=false;
         try{
             for (Persona empleado : ControllerMenu.nomina.getPersonas()){
@@ -53,7 +53,7 @@ public class ControllerOpcion3 {
             Parent root = FXMLLoader.load(getClass().getResource("menu.fxml"));
             Scene scene = new Scene(root);
             Stage stage = new Stage();
-            stage.setTitle("Opcion 2");
+            stage.setTitle("Menu");
             stage.setScene(scene);
             stage.initModality(Modality.WINDOW_MODAL);
             stage.initOwner(salir.getScene().getWindow());

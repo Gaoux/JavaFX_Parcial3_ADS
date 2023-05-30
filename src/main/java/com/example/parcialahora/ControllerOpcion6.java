@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import static com.example.parcialahora.Nomina.calcularSalario;
+import static com.example.parcialahora.Nomina.calcularSalarioPersona;
 
 public class ControllerOpcion6 {
     @FXML
@@ -36,7 +36,7 @@ public class ControllerOpcion6 {
             if(empleado instanceof Monitor){
                 if(empleado.getNombre().equals(nombre)){
                     cantidad.setText(String.valueOf(empleado.getNumeroSalarioMinimo()));
-                    salario.setText(String.valueOf(calcularSalario(empleado)));
+                    salario.setText(String.valueOf(calcularSalarioPersona(empleado)));
                 }
             }
         }

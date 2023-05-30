@@ -85,9 +85,10 @@ public class FileHandler {
         }
     }
     public static String escribirArchivoReporte(Nomina n) throws IOException {
-        FileWriter fw = new FileWriter("Reporte.txt");
+        String fileName = "Reporte.txt";
+        FileWriter fw = new FileWriter(fileName);
         for (Persona p: n.getPersonas())
-            fw.write(p.getNombre() + " , " + p.getNumeroIdentificacion() + " , \\$ " + n.calcularSalario(p) + "\n");
+            fw.write(p.getNombre() + " , " + p.getNumeroIdentificacion() + " , \\$ " + Nomina.calcularSalarioPersona(p) + "\n");
 
         fw.close();
         return Paths.get("Reporte.txt").toString();

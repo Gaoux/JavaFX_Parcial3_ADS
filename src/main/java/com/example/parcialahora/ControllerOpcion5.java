@@ -44,7 +44,7 @@ public class ControllerOpcion5 {
             Parent root = FXMLLoader.load(getClass().getResource("menu.fxml"));
             Scene scene = new Scene(root);
             Stage stage = new Stage();
-            stage.setTitle("Opcion 2");
+            stage.setTitle("Menu");
             stage.setScene(scene);
             stage.initModality(Modality.WINDOW_MODAL);
             stage.initOwner(salir.getScene().getWindow());

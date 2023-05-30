@@ -16,7 +16,7 @@
       <TextField fx:id="nombreProfesores" layoutX="439.0" layoutY="218.0" prefHeight="25.0" prefWidth="253.0" />
       <TextField fx:id="nombreAsignatura" layoutX="439.0" layoutY="279.0" prefHeight="25.0" prefWidth="253.0" />
       <TextField fx:id="numeroHoras" layoutX="439.0" layoutY="335.0" prefHeight="25.0" prefWidth="253.0" />
-      <Button fx:id="comprobar" layoutX="442.0" layoutY="383.0" mnemonicParsing="false" onAction="#añadiraProfesor" prefHeight="25.0" prefWidth="253.0" text="Comprobar" />
+      <Button fx:id="comprobar" layoutX="442.0" layoutY="383.0" mnemonicParsing="false" onAction="#agregarAProfesor" prefHeight="25.0" prefWidth="253.0" text="Comprobar" />
       <Button fx:id="salir" layoutX="38.0" layoutY="425.0" mnemonicParsing="false" onAction="#llamarMenu" prefHeight="25.0" prefWidth="253.0" text="Salir" />
    </children>
 </AnchorPane>

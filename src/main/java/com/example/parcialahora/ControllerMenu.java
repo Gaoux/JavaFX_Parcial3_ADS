@@ -26,10 +26,13 @@ public class ControllerMenu implements Initializable {
     private Button boton7;
 
     public static final Nomina nomina = new Nomina();
-
+    private static boolean firstTime = true;
     public void initialize(URL url, ResourceBundle resourceBundle) {
         String fileName = "src/main/resources/ejemplo.txt";
-        FileHandler.leerArchivoNomina(nomina, fileName);
+        if(firstTime) {
+            FileHandler.leerArchivoNomina(nomina, fileName);
+            firstTime = false;
+        }
     }
 
     public void opcion2() {

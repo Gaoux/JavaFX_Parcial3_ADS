@@ -5,11 +5,12 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.parcialahora.ControllerOpcion7">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.parcialahora.ControllerOpcion7">
     <ImageView fitHeight="485.0" fitWidth="785.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
       <image>
          <Image url="@Opcion%207%20(2).jpg" />
       </image></ImageView>
-   <Button fx:id="descarga" layoutX="354.0" layoutY="243.0" mnemonicParsing="false" opacity="0.0" onAction="#downloadFile" prefHeight="68.0" prefWidth="76.0" />
-
+   <Button fx:id="descarga" layoutX="354.0" layoutY="243.0" mnemonicParsing="false" onAction="#downloadFile" opacity="0.0" prefHeight="68.0" prefWidth="76.0" />
+    <Button fx:id="salir" layoutX="266.0" layoutY="424.0" mnemonicParsing="false" onAction="#llamarMenu" prefHeight="25.0" prefWidth="253.0" text="Salir" />
+   <Button fx:id="botonTabla" layoutX="367.0" layoutY="359.0" mnemonicParsing="false"  onAction="#showTable" text="TABLA" />
 </AnchorPane>

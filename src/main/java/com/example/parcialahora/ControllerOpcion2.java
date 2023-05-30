@@ -30,16 +30,16 @@ public class ControllerOpcion2 {
         nomina = ControllerMenu.nomina;
     }
     @FXML
-    public void añadiraProfesor(){
+    public void agregarAProfesor(){
         boolean existe=false;
+
         try{
             for (Persona empleado : ControllerMenu.nomina.getPersonas()){
-                if (empleado instanceof Profesor){
+                if (empleado instanceof Profesor)
                     if(empleado.getNombre().equals(nombreProfesores.getText().trim())){
                         ((Profesor) empleado).agregarAsignatura(Integer.parseInt(numeroHoras.getText().trim()), nombreAsignatura.getText().trim());
                         existe=true;
                     }
-                }
             }if(!existe){
                 throw new Exception("El profesor ingresado no existe");
             }
